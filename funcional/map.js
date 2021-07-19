@@ -1,5 +1,6 @@
 /* 
     map:
+    
     - É uma função do Javascript que utiliza outras funções como argumento 
     - Utilizada geralmente para transformar arrays
     - Sempre o resultado final do array, terá o mesmo tamanho do original

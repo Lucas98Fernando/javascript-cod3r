@@ -1,5 +1,6 @@
 /*
     filter:
+    
     - É uma função do Javascript que utiliza outras funções como argumento 
     - O objetivo é filtrar através de condicionais
     - Será gerado um novo array, contudo, nem sempre ele terá o mesmo tamanho do array original, como acontece no map
