@@ -2,7 +2,7 @@ function bomDia() {
     console.log("Bom dia !")
 }
 
-let boaTarde = function() {
+let boaTarde = function () {
     console.log("Boa tarde !")
 }
 
@@ -21,11 +21,13 @@ executaAlgumaCoisa(45)
 
 // Retornar uma função a partir de uma outra
 function potencia(base) {
-    return function(exp) {
+    return function (exp) {
         return Math.pow(base, exp)
     }
 }
 
 const potenciaDe2 = potencia(2)
 console.log(potenciaDe2(8))
-console.log(potencia())
+
+const potencia34 = potencia(3)(4)
+console.log(potencia34)
