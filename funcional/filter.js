@@ -4,7 +4,7 @@
     - É uma função do Javascript que utiliza outras funções como argumento 
     - O objetivo é filtrar através de condicionais
     - Será gerado um novo array, contudo, nem sempre ele terá o mesmo tamanho do array original, como acontece no map
-    - Como funciona ? Internamente ele irá fazer um laço for, percorrendo cada elemento do array e verificado se a condição informa é atendida, retornando true ou false
+    - Como funciona ? Internamente ele irá fazer um laço for, percorrendo cada elemento do array e verificado se a condição informa é atendida, retornando true ou false, se for true, o elemento irá fazer parte do novo array que será gerado
 */
 
 // Array original de números

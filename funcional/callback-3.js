@@ -64,7 +64,7 @@ console.log(total)
 Array.prototype.meuMap = function (fn) {
     // Variável para armazenar o novo array que será gerado
     const novoArray = []
-    // Laço de repitação que irá passar o array, nesse cenário o this corresponde a esse array
+    // Laço de repitação que irá varrer o array, nesse cenário o this corresponde a esse array
     for (let i = 0; i < this.length; i++) {
         // O novo array terá os novos valores sendo inseridos nele, onde ele irá receber essa nova função como parâmetro
         novoArray.push(fn(this[i], i, this))
