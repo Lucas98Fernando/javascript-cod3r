@@ -34,7 +34,7 @@ const carrinho = [{
     {
         nome: 'TV 4K',
         qtd: 0,
-        preco: 4.999
+        preco: 4999
     },
     {
         nome: 'Impressora',

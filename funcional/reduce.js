@@ -3,7 +3,9 @@
 
     - É uma função Javascript voltada para reduzir os valores de um array em um único valor
     - Geralmente recebe até 4 parâmetros na função (acumulador, elementoAtual, indice,  arrayOriginal)
-    - Como funciona ? Internamente ele irá fazer um laço for, percorrendo cada elemento do array e realizará a operação informada 
+    - Como funciona ? Internamente ele irá fazer um laço for, percorrendo cada elemento do array e realizará a operação informada
+    - Ele é capaz de transformar um array em um único valor
+    - Quando informado um valor inicial, o laço for irá começar incrementando com esse valor, caso não seja informado nenhum valor inicial, o valor do array na posição 0 será o valor inicial do acumulador automáticamente  
 */
 
 // Array de números
