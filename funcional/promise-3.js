@@ -11,3 +11,9 @@ function gerarNumeroEntre(min, max) {
 }
 
 gerarNumeroEntre(1, 60).then(num => num * 10).then(numx10 => console.log(`O número gerado foi ${numx10}`))
+
+// Exemplo de destructuring
+
+// const array = [1, 2, 3]
+// const [a, b, c] = array
+// console.log(a, b, c)
