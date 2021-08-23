@@ -12,6 +12,7 @@ function gerarNumeroEntre(min, max, tempo) {
 
 // Retornando todos os valores somente quando a promise for resolvida, muito útil quando temos vários métodos em paralelo e precisamos de todos os dados no final para assim executar outras funções
 function gerarVariosNumeros() {
+    // O Promise.all é um método utilitário que serve para sincronizar todas as respostas para depois chamar o .then()
     return Promise.all([
         gerarNumeroEntre(1, 60, 1000),
         gerarNumeroEntre(1, 60, 2000),
